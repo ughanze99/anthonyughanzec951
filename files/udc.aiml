@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  
+  <category>
+    <pattern>Hello</pattern>
+    <template>Hello! I can help you choose a career. Let's start with some questions. Are you ready?</template>
+  </category>
+  <category>
+        <pattern>Hi</pattern>
+        <template><srai>Hello</srai></template>
+  </category>
+  <category>
+        <pattern>Hey</pattern>
+        <template><srai>Hello</srai></template>
+  </category>
+    
+  <category>
+    <pattern>Yes</pattern>
+    <template>Great! First question: Do you enjoy working with networks or coding?</template>
+  </category>
+
+  <category>
+    <pattern>NETWORKS</pattern>
+    <template>Okay, Do you like securing systems or managing network infrastructure?</template>
+  </category>
+
+  <category>
+    <pattern>CODING</pattern>
+    <template>Got it! Do you prefer analyzing data or developing software?</template>
+  </category>
+
+  <category>
+    <pattern>SECURING SYSTEMS</pattern>
+    <template>Great! You might enjoy being a Cyber Security Specialist.</template>
+  </category>
+
+  <category>
+    <pattern>MANAGING NETWORK INFRASTRUCTURE</pattern>
+    <template>Leadership skills! You may consider a career as a Network Engineer.</template>
+  </category>
+
+  <category>
+    <pattern>ANALYZING DATA</pattern>
+    <template>Amazing! You could be a Data Analyst.</template>
+  </category>
+
+  <category>
+    <pattern>DEVELOPING SOFTWARE</pattern>
+    <template>Great! You might enjoy being a Software Engineer.</template>
+  </category>
+  
+  <category>
+    <pattern>LEADING PROJECTS</pattern>
+    <template>Excellent! You could be an IT Project Manager.</template>
+  </category>
+
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You're welcome! I hope you found this helpful. Have a great day!</template>
+  </category>
+</aiml>
